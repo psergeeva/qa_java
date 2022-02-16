@@ -22,6 +22,7 @@ public class TestFelineKittens {
                     {0, 0},
                     {2, 2},
                     {5, 5},
+                    {100, 100},
             };
         }
 
@@ -30,5 +31,5 @@ public class TestFelineKittens {
             Feline feline = new Feline();
             assertEquals(expected, feline.getKittens(kittensCount));
         }
-
+//to index
 }

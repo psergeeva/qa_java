@@ -30,4 +30,5 @@ public class LionHaveMaleSexParamTest {
         Lion lion = new Lion (sex, feline);
         assertEquals(expected, lion.doesHaveMane());
     }
+    //to index
 }
