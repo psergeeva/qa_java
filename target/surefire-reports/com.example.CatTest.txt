@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.CatTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.35 sec
+=======
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.169 sec
+>>>>>>> origin/Sprint_2_develop
