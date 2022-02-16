@@ -1,42 +1,13 @@
 package com.example;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-@RunWith(Parameterized.class)
-
 public class FelineTest {
 
-    private final int a;
-    private final int expected;
-
-   public FelineTest(int a, int expected) {
-       this.a = a;
-     this.expected = expected;
-    }
-
-
-    @Parameterized.Parameters
-    public static Collection<Object[]> getKittens(int kittensCount) {
-        return Arrays.asList(new Object[][] {
-                {1, 1},
-                {2, 2},
-       });
-            }
-
-
-   @Test
-  public void checkGetKittens() {
-     Feline feline = new Feline();
-      assertEquals(expected, a);
-   }
 
     @Test
     public void eatMeat() throws Exception {
@@ -58,7 +29,7 @@ public class FelineTest {
     }
 
     @Test
-    public void getKittens() {
+    public void testFelineGetOneKitten() {
         Feline feline = new Feline();
         int expected = 1;
         assertEquals(expected, feline.getKittens());

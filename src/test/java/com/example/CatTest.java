@@ -16,14 +16,9 @@ public class CatTest {
 
     @Test
     public void checkCorrectCatSound() {
-        //Arrange
         String expectedSound = "Мяу";
         Cat cat = new Cat();
-
-        //Act
         String actualSound = cat.getSound();
-
-        //Assert
         assertEquals(expectedSound,actualSound);
     }
 
