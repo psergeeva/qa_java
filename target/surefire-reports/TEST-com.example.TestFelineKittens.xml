@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<<<<<<< HEAD
-<testsuite tests="2" failures="0" name="com.example.CatTest" time="0.271" errors="0" skipped="0">
-=======
-<testsuite tests="2" failures="0" name="com.example.CatTest" time="0.223" errors="0" skipped="0">
->>>>>>> origin/Sprint_2_develop
+<testsuite tests="3" failures="0" name="com.example.TestFelineKittens" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13.0.1+9"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
     <property name="user.country.format" value="RU"/>
-<<<<<<< HEAD
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\psergeeva\Documents\workshops\praktikum\sprint_2\qa_java"/>
-=======
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\psergeeva\qa_java"/>
->>>>>>> origin/Sprint_2_develop
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -25,11 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-<<<<<<< HEAD
     <property name="user.dir" value="C:\Users\psergeeva\Documents\workshops\praktikum\sprint_2\qa_java"/>
-=======
-    <property name="user.dir" value="C:\Users\psergeeva\qa_java"/>
->>>>>>> origin/Sprint_2_develop
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
     <property name="os.arch" value="amd64"/>
@@ -74,11 +62,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-<<<<<<< HEAD
-  <testcase classname="com.example.CatTest" name="checkCorrectCatSound" time="0.241"/>
-  <testcase classname="com.example.CatTest" name="checkGetFood" time="0.03"/>
-=======
-  <testcase classname="com.example.CatTest" name="getCorrectCatSound" time="0.197"/>
-  <testcase classname="com.example.CatTest" name="getFood" time="0.026"/>
->>>>>>> origin/Sprint_2_develop
+  <testcase classname="com.example.TestFelineKittens" name="TestFelineHaveKittens[0]" time="0"/>
+  <testcase classname="com.example.TestFelineKittens" name="TestFelineHaveKittens[1]" time="0"/>
+  <testcase classname="com.example.TestFelineKittens" name="TestFelineHaveKittens[2]" time="0"/>
 </testsuite>
