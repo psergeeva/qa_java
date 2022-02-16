@@ -1,5 +1,6 @@
 package com.example;
 
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -16,6 +17,7 @@ public class CatTest {
 
     @Test
     public void checkCorrectCatSound() {
+
         String expectedSound = "Мяу";
         Cat cat = new Cat(feline);
         String actualSound = cat.getSound();

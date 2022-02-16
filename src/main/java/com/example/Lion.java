@@ -5,6 +5,8 @@ import java.util.List;
 public class Lion {
     private Feline feline;
 
+    private Feline feline;
+
     boolean hasMane;
 
     public Lion(String sex, Feline feline) throws Exception {
