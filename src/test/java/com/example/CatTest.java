@@ -12,32 +12,26 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 @RunWith(MockitoJUnitRunner.class)
+
 public class CatTest {
 
     @Test
     public void checkCorrectCatSound() {
-        //Arrange
         String expectedSound = "Мяу";
-        Cat cat = new Cat();
-
-        //Act
+        Cat cat = new Cat(feline);
         String actualSound = cat.getSound();
-
-        //Assert
-        assertEquals(expectedSound,actualSound);
+        assertEquals(expectedSound, actualSound);
     }
 
-   @Mock
-   private Feline feline;
+    @Mock
+    private Feline feline;
 
-   @Test
-   public void checkGetFood() throws Exception {
+    @Test
+    public void checkGetFood() throws Exception {
         Cat cat = new Cat(feline);
-       Mockito.when(feline.eatMeat()).thenReturn(List.of("Животные", "Птицы", "Рыба"));
-       List<String> actual = cat.getFood();
-       List<String> expected = List.of("Животные", "Птицы", "Рыба");
-       assertEquals(expected, actual);
-   }
-
-   // }
+        Mockito.when(feline.eatMeat()).thenReturn(List.of("Животные", "Птицы", "Рыба"));
+        List<String> actual = cat.getFood();
+        List<String> expected = List.of("Животные", "Птицы", "Рыба");
+        assertEquals(expected, actual);
+    }
 }
